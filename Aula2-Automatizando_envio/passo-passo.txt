@@ -1,0 +1,27 @@
+		Obtendo dados de ações de forma automática
+
+1- Importa Biblioteca 'yfinance'. # import yfinance
+2- Buscar ticker da ação.
+3- Gerar tabela de dados da ação. #yfinance.Ticker(ticker)
+4- Gerar dados dos ultimos 6 meses da ação. #dados.history()
+5- Gerar tabela de fechamentos da ação. #variavel.Close
+6- Gerar grafico simples dos fechamentos das ações. #fechamento.plot()
+7- gerar dados de cotação(maxima, minima, atual)
+cotacao_maxima = fechamento.max()
+cotacao_minima = fechamento.min()
+cotacao_atual = fechamento[-1]
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+		Enviando e-mail de forma automática
+
+1- Importa as bibliotecas pyautogui(import pyautogui as pt)/pyperclip(import pyperclip as pc).
+2- Abrir uma nova aba do navegador - atalho(clicar"ctrl", "t").
+3- Digitar o endereço do gmail(gmail.com) e digitar ENTER.
+4- Clicar em ESCREVER.
+5- Digitar o endereço de e-mail do destinatario.
+6- Mudar para o campo ASSUNTO(clicar no campo ou digitar TAB).
+7- Digitar o ASSUNTO.
+8- Mudar para o comapo principal do e-mail(clicar no campo ou digitar TAB).
+9- Escrever a mensagem.
+10- Clicar em ENVIAR.
